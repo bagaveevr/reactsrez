@@ -1,0 +1,45 @@
+/* Стили для контейнера слайдера */
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: 1rem auto;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стили для каждого изображения в слайдере */
+  .slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Добавьте стрелки для навигации, если потребуется */
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #4a90e2;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+  
+  .slider-arrow.left {
+    left: 10px;
+  }
+  
+  .slider-arrow.right {
+    right: 10px;
+  }
+
+  .car {
+    width: 600px;
+    margin: 0 auto;
+    
+  }
